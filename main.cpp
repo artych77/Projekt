@@ -1,6 +1,11 @@
 #include <iostream>
+//#include "game_controller.h"
+#include "cmake-build-debug/game_controller.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    game_model model;
+    game_controller controller(model);
+    controller.launch();
+
     return 0;
 }
