@@ -1,6 +1,6 @@
 #include <iostream>
 //#include "game_controller.h"
-#include "cmake-build-debug/game_controller.h"
+#include "game_controller.h"
 
 int main() {
     game_model model;
