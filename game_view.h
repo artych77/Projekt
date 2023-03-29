@@ -16,6 +16,7 @@ public:
     explicit game_view(game_model& model);
 
     void update();
+    int animation();
 
 private:
     game_model& model;

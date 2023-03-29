@@ -19,7 +19,7 @@ void game_controller::launch() {
             this->model.add_points(1);
             this->view.update();
         }
-
+        if(this->model.get_point() >= 1001) break;
     }
     while(key != 27);
 
